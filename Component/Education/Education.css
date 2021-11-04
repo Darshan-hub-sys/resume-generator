@@ -1,0 +1,45 @@
+.Edu{
+   display: flex;
+   flex-direction: column;
+   max-width: 40%;
+   margin: auto;
+   gap: 20px;
+   padding-bottom: 100px;
+}
+
+@media (max-width:500px){
+   .Edu{
+      max-width:90%;
+      margin: auto;
+   }
+   
+   .Edu div button{
+      width: none;
+   }
+}
+.Edu>div{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.Edu div button{
+   background-color:rgb(24,24,58) ;
+   padding: 10px;
+}
+.Edu div input{
+   padding: 10px;
+   border: 2px solid grey;
+   display: block;
+}
+.Edu div>h3{
+   background-color: rgb(199, 246, 199);
+   padding: 10px;
+
+}
+.proceed,.save{
+   background-color: rgb(24,24,58);
+   padding: 10px;
+   margin: 10px;
+   color: white;
+   cursor: pointer;
+}

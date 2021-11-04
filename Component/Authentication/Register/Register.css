@@ -1,0 +1,46 @@
+.Container{
+   display: flex;
+   flex-direction: column;
+   max-width: 30%;
+   margin: auto;
+   gap: 10px;
+   height: 100vh;
+   padding-top: 200px;
+}
+.Container h2{
+   background-color: rgb(199, 246, 199);
+   padding: 10px;
+}
+.Container input{
+   padding: 10px;
+   border: 2px solid grey;
+}
+.Container button{
+   background-color: rgb(24,24,58);
+   color: white;
+   padding: 10px;
+}
+.Resume{
+   background-color: rgb(24,24,58);
+   width: 100%;
+   height: 50px;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 13px;
+}
+.Container span{
+   color: rgb(253, 5, 5);
+   padding: 6px;
+}
+.Container button a{
+   color: white;
+   text-decoration: none;
+}
+@media (max-width:500px){
+   .Container{
+      max-width: 90%;
+      margin: auto;
+   }
+}

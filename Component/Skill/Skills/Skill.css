@@ -1,0 +1,38 @@
+.Skill{
+   display: flex;
+   flex-direction: column;
+   max-width: 50%;
+   margin: auto;
+   gap: 10px;
+   padding-bottom: 100px;
+}
+.button{
+   background-color: rgb(199, 246, 199);
+   padding: 10px;
+   margin: 10px;
+   color: black;
+   border: none;
+}
+.proceed,.save{
+   background-color: rgb(24,24,58);
+   padding: 10px;
+   margin: 10px;
+   color: white;
+   cursor: pointer;
+}
+
+@media (max-width:500px){
+   .Skill{
+      max-width: 90%;
+   }
+}
+.Skill input{
+   padding: 10px;
+   border: 2px solid grey;
+}
+.SkillFlex{
+   display:flex;
+   flex-direction: column;
+   gap: 10px;
+
+}

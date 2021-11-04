@@ -1,0 +1,19 @@
+.WorkInputs{
+   display: flex;
+   flex-direction: column;
+}
+
+.WorkInputs input{
+   padding: 10px;
+   border: 2px solid grey;
+   margin: 10px;
+}
+.WorkInputs button{
+   background-color: rgb(24,24,58);
+border: none;
+padding: 10px;
+margin: 10px;   
+color: white;
+width: 150px;
+cursor: pointer;
+}

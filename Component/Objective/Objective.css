@@ -1,0 +1,24 @@
+.Object{
+   max-width: 50%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+@media (max-width:500px){
+   .Object{
+      max-width: 90%;
+      margin: auto;
+   }
+}
+.Object input{
+   padding: 10px;
+   border: 2px solid grey;
+}
+.proceed,.save{
+   background-color: rgb(24,24,58);
+   padding: 10px;
+   margin: 10px;
+   color: white;
+   cursor: pointer;
+}
